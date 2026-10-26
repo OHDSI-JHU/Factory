@@ -4,17 +4,33 @@
   "factory_issue": 194,
   "study_project_id": "PVT_kwDOCQMYQc4Bo1I0",
   "default_branch": "main",
-  "current_gate": -1,
-  "gate_entered_at": null,
+  "current_gate": 0,
+  "gate_entered_at": "2026-10-26T16:32:04+00:00",
   "stall_threshold_days": 21,
   "start_date": "2026-10-26",
   "target_date": "2027-01-01",
   "gates": {
     "0": {
-      "status": "in_progress",
+      "status": "ready_for_review",
       "entered_at": "2026-10-26T16:28:32+00:00",
       "issue": 1,
-      "evidenced_by": []
+      "evidenced_by": [
+        "TEAM.md"
+      ],
+      "ready_at": "2026-10-26T16:32:04+00:00",
+      "commits": [
+        {
+          "sha": "f095d4a22600406b0a920c3a86a44bab8f373d87",
+          "url": "https://github.com/OHDSI-JHU/study-test-hypertension-in-xluisad/commit/f095d4a22600406b0a920c3a86a44bab8f373d87",
+          "at": "2026-10-26T16:31:45+00:00",
+          "author": "seanr87",
+          "message": "Update team member details in TEAM.md",
+          "paths": [
+            "TEAM.md"
+          ],
+          "removed": []
+        }
+      ]
     },
     "1": {
       "status": "in_progress",
@@ -69,5 +85,15 @@
     "6": 7,
     "7": 8
   },
-  "history": []
+  "history": [
+    {
+      "at": "2026-10-26T16:32:04+00:00",
+      "from_gate": -1,
+      "to_gate": 0,
+      "commit": "f095d4a22600406b0a920c3a86a44bab8f373d87",
+      "evidence": [
+        "TEAM.md"
+      ]
+    }
+  ]
 }
